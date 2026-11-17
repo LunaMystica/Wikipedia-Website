@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(code --install-extension esbenp.prettier-vscode)",
+      "PowerShell(npx --yes prettier --version)"
+    ]
+  }
+}

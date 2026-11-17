@@ -1,0 +1,255 @@
+/* ---------- Base ---------- */
+
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #202122;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+#page {
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem 3rem;
+  background-color: #ffffff;
+  border-inline: 1px solid #eaecf0;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0.5em 0 1em;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #a2a9b1;
+  margin: 1.5em 0;
+}
+
+/* ---------- Headings ---------- */
+
+h1,
+h2 {
+  font-weight: normal;
+  line-height: 1.375;
+  border-bottom: 1px solid #a2a9b1;
+  margin: 1.2em 0 0.25em;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 0.8em 0 0.3em;
+}
+
+/* ---------- Links ---------- */
+
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #795cb2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Small text, superscripts, lists ---------- */
+
+small {
+  display: block;
+  font-size: 0.85em;
+  margin-bottom: 0.5em;
+}
+
+sup {
+  font-size: 0.75em;
+  line-height: 1;
+}
+
+ul,
+ol {
+  margin: 0.3em 0 0 1.6em;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.1em;
+}
+
+/* "→ Hauptartikel" line */
+#qualification-main-article-link {
+  margin: 0 0 0.75em 1.6em;
+  font-style: italic;
+}
+
+#qualification-main-article-link a {
+  font-style: normal;
+}
+
+/* ---------- .wikitable: shared look for all data tables ---------- */
+
+.wikitable {
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+.wikitable th,
+.wikitable td {
+  border: 1px solid #a2a9b1;
+  padding: 0.2em 0.4em;
+}
+
+.wikitable th,
+.wikitable tfoot td {
+  background-color: #eaecf0;
+  font-weight: bold;
+}
+
+.wikitable th {
+  text-align: center;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+#qualification-key-table td:not(:first-child) {
+  text-align: center;
+}
+
+/* ---------- Venues table ---------- */
+
+.venues td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* ---------- .columns: borderless side-by-side layout ---------- */
+
+.columns {
+  border-collapse: collapse;
+  margin: 0.5em 0 1em;
+}
+
+.columns td {
+  vertical-align: top;
+  padding: 0 3em 0 0;
+}
+
+.columns td > ul > li {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.columns td > ul > li > ul {
+  font-weight: normal;
+}
+
+/* ---------- Images ---------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.thumb {
+  display: inline-block;
+  margin: 0;
+  padding: 3px;
+  background-color: #f8f9fa;
+  border: 1px solid #c8ccd1;
+}
+
+.thumb img {
+  display: block;
+  border: 1px solid #c8ccd1;
+}
+
+.thumb figcaption {
+  font-size: 0.85em;
+  line-height: 1.4;
+  padding: 0.3em 0.2em 0.1em;
+  text-align: left;
+}
+
+#venues-map-image {
+  width: 330px;
+}
+
+.arena-image {
+  width: 150px;
+  border: 1px solid #c8ccd1;
+}
+
+/* ---------- Row colors for the final standings ---------- */
+
+.gold {
+  background-color: #f7f6a8;
+}
+.silver {
+  background-color: #dce5e5;
+}
+.bronze {
+  background-color: #ffdab9;
+}
+.fourth {
+  background-color: #fbfbd9;
+}
+.place-5 {
+  background-color: #d8f781;
+}
+.place-9 {
+  background-color: #bfff00;
+}
+.place-13 {
+  background-color: #d7df01;
+}
+.place-17 {
+  background-color: #f3f781;
+}
+.place-21 {
+  background-color: #f7d358;
+}
+.place-25 {
+  background-color: #faac58;
+}
+.place-29 {
+  background-color: #fe642e;
+}
+
+/* ---------- References  ---------- */
+
+#references-list {
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-left: 2em;
+}
+
+#references-list li {
+  margin-bottom: 0.3em;
+}
+
+.reference-name {
+  font-style: italic;
+}

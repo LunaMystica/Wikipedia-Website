@@ -1,0 +1,33 @@
+{
+	"liveServer.settings.port": 5501,
+
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"html.autoClosingTags": true,
+	"html.suggest.html5": true,
+
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.includeLanguages": {
+		"html": "html"
+	},
+
+	"css.lint.unknownAtRules": "ignore",
+
+	"files.associations": {
+		"*.html": "html"
+	}
+}
